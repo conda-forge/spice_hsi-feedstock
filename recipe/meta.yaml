@@ -10,18 +10,18 @@ source:
   sha256: c49d81b6f75b17ec9c1798d22164f25e676006b976a70c05efa795537ba7c195
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
     - pip
-    - python <3.8
+    - python
   run:
     - cvxopt
     - numpy
-    - python <3.8
+    - python
     - quadprog
     - scipy
 

@@ -5,7 +5,7 @@ Home: https://faculty.eng.ufl.edu/machine-learning/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: GatorSense Sparsity Promoting Iterated Constrained Endmembers Toolkit - Python Implementation
 
